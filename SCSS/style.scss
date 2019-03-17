@@ -1,0 +1,22 @@
+body {
+    background-color: steelblue;
+}
+
+//  UTILITIES
+@import 'utilities/mixins';
+@import 'utilities/variables';
+@import 'utilities/normalize';
+
+//     BASE
+@import 'base/base';
+
+//  COMPONENTS
+@import 'components/buttons';
+@import 'components/images';
+@import 'components/nav';
+
+//    LAYOUT
+@import 'layout/containers';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
