@@ -1,4 +1,34 @@
 body {
   background-color: steelblue; }
 
+body, header, nav, section, main, footer {
+  border: red solid 1px; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  margin: 0; }
+
+section {
+  grid-area: section; }
+
+main {
+  grid-area: main; }
+
+nav {
+  grid-area: nav; }
+
+footer {
+  grid-area: footer; }
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "header header header" "nav nav nav" "section section section" "main main main" "footer footer footer"; }
+
+header {
+  grid-area: header; }
+
 /*# sourceMappingURL=style.css.map */
