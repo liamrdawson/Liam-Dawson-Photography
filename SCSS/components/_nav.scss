@@ -1,3 +1,13 @@
 nav {
     grid-area: nav;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    flex: 1;
+}
