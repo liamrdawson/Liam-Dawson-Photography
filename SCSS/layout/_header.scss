@@ -1,8 +1,17 @@
 header {
     grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px;
 }
 
 h1 {
-    margin: auto;
-    text-align: center;
+    margin: 0;
+    display: inline-block;
+    a {
+        color: white;
+    }
 }

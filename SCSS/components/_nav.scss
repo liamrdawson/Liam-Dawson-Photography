@@ -1,13 +1,38 @@
 nav {
     grid-area: nav;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+    top: 50px;
+    width: 100vw;
+    height: 300px;
+    transform: translate3d(100vw, 0, 0);
 }
 
 ul {
+    padding: 0;
+    height: 100%;
+    margin: 0;
     list-style: none;
+
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-li {
-    flex: 1;
+.burger {
+    position: fixed;
+    top: 8px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    div {
+        width: 30px;
+        height: 5px;
+        margin: 5px 0;
+        background-color: white;
+    }
 }

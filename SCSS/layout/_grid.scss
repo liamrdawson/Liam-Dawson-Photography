@@ -1,11 +1,10 @@
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax();
+    grid-template-rows: 50px auto 50px;
+
     grid-template-areas: 
         "header header header"
-        "nav nav nav"
-        "section section section"
         "main main main"
         "footer footer footer";
 }
