@@ -17,21 +17,6 @@ section {
 main {
   grid-area: main; }
 
-.image {
-  position: fixed;
-  height: 100vh;
-  right: 0;
-  z-index: -1; }
-  .image ::before {
-    background-image: linear-gradient(90deg, #fce38a 0%, #f38181 100%);
-    content: '';
-    position: absolute;
-    top: 0;
-    height: 100vh;
-    z-index: 1; }
-  .image img {
-    height: 100%; }
-
 nav {
   grid-area: nav;
   position: absolute;
