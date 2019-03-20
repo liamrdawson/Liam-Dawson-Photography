@@ -30,5 +30,8 @@ main {
 a {
     color: white;
     text-transform: uppercase;
-    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: red;
+    }
 }

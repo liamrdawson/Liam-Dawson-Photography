@@ -6,10 +6,11 @@ nav {
     justify-content: center;
 
     top: 50px;
-    width: 80vw;
-    left: 10vw;
-    height: 300px;
-    //transform: translate3d(100vw, 0, 0);
+    width: 100vw;
+    height: calc(100vh - 50px);
+    transform: translate3d(100vw, 0, 0);
+
+    background-color: tomato;
 }
 
 ul {
@@ -21,7 +22,10 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    //justify-content: space-around;
+    li {
+        margin: 2rem;
+    }
 }
 
 .burger {
