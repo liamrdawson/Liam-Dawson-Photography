@@ -1,76 +1,80 @@
-* {
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...rflow-x: hidden": expected "{", was ";"
+        on line 15 of SCSS/base/_base.scss
+        from line 12 of SCSS/style.scss
 
-body {
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
-  overflow-x: hidden;
-  color: white; }
+10: body {
+11:     height: 100vh;
+12:     width: 100vw;
+13:     margin: 0;
+14: <<<<<<< HEAD
+15:     overflow-x: hidden;
+16: =======
+17: 
+18: >>>>>>> temp
+19:     color: white;
+20: }
 
-section {
-  grid-area: section;
-  opacity: 0.8;
-  padding: 20px;
-  height: 100%; }
-
-main {
-  grid-area: main; }
-
-nav {
-  grid-area: nav;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  top: 50px;
-  width: 100vw;
-  height: 300px;
-  transform: translate3d(100vw, 0, 0); }
-
-ul {
-  padding: 0;
-  height: 100%;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around; }
-
-.burger {
-  position: fixed;
-  top: 8px;
-  right: 15px;
-  width: 30px;
-  height: 30px; }
-  .burger div {
-    width: 30px;
-    height: 4px;
-    margin: 5px 0;
-    background-color: white; }
-
-.main-footer {
-  grid-area: footer;
-  text-align: center; }
-
-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px auto 50px;
-  grid-template-areas: "header header header" "main main main" "footer footer footer"; }
-
-header {
-  grid-area: header;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px; }
-
-h1 {
-  margin: 0;
-  display: inline-block; }
-  h1 a {
-    color: white; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+SCSS/base/_base.scss:15
+SCSS/style.scss:12
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1308:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1238:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:1233:in `tok!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:688:in `block'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:681:in `ruleset'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:707:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:321:in `to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.2/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...rflow-x: hidden\": expected \"{\", was \";\"\A         on line 15 of SCSS/base/_base.scss\A         from line 12 of SCSS/style.scss\A \A 10: body {\A 11:     height: 100vh;\A 12:     width: 100vw;\A 13:     margin: 0;\A 14: <<<<<<< HEAD\A 15:     overflow-x: hidden;\A 16: =======\A 17: \A 18: >>>>>>> temp\A 19:     color: white;\A 20: }"; }

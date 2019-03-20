@@ -3,11 +3,14 @@ nav {
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     top: 50px;
     width: 100vw;
-    height: 300px;
+    height: calc(100vh - 50px);
     transform: translate3d(100vw, 0, 0);
+
+    background-color: tomato;
 }
 
 ul {
@@ -16,11 +19,13 @@ ul {
     margin: 0;
     list-style: none;
 
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    //justify-content: space-around;
+    li {
+        margin: 2rem;
+    }
 }
 
 .burger {
@@ -31,8 +36,14 @@ ul {
     height: 30px;
     div {
         width: 30px;
+<<<<<<< HEAD
         height: 4px;
         margin: 5px 0;
+=======
+        height: 3px;
+        margin: 7px 0;
+        border-radius: 3px;
+>>>>>>> temp
         background-color: white;
     }
 }

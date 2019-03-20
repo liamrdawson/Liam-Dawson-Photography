@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+=======
+img {
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    z-index: -1;
+}
+
+.hero1 {
+    background: 
+        linear-gradient(black, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.2) 40%, transparent 80%),
+        url(../Gallery/IMG_9063.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+
+.hero2 {
+    background: 
+        linear-gradient(black, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.2) 40%, transparent 80%),
+        url(../Gallery/IMG_8894-2.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+
+.hero3 {
+    background: 
+        linear-gradient(black, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.2) 40%, transparent 80%),
+        url(../Gallery/IMG_9485.jpg);
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+>>>>>>> temp
