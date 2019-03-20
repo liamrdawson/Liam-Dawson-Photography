@@ -1,23 +1,30 @@
-body, header, nav, section, main, footer {
-  border: red solid 1px; }
-
 * {
   box-sizing: border-box; }
+
+html, body {
+  overflow: hidden;
+  overflow-x: hidden; }
 
 body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  overflow-x: hidden; }
+  color: white; }
 
 section {
   grid-area: section;
   opacity: 0.8;
   padding: 20px;
-  height: 100%; }
+  height: 100%;
+  display: none; }
 
 main {
   grid-area: main; }
+
+a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 img {
   position: fixed;
@@ -25,15 +32,22 @@ img {
   right: 0;
   z-index: -1; }
 
+body {
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.2) 40%, transparent 80%), url(../Gallery/IMG_9063.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 100%; }
+
 nav {
   grid-area: nav;
   position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   top: 50px;
-  width: 100vw;
-  height: 300px;
-  transform: translate3d(100vw, 0, 0); }
+  width: 80vw;
+  left: 10vw;
+  height: 300px; }
 
 ul {
   padding: 0;
@@ -53,8 +67,9 @@ ul {
   height: 30px; }
   .burger div {
     width: 30px;
-    height: 5px;
-    margin: 5px 0;
+    height: 3px;
+    margin: 7px 0;
+    border-radius: 3px;
     background-color: white; }
 
 .main-footer {
@@ -79,6 +94,7 @@ h1 {
   margin: 0;
   display: inline-block; }
   h1 a {
-    color: white; }
+    color: white;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

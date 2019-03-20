@@ -3,11 +3,13 @@ nav {
     position: absolute;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
     top: 50px;
-    width: 100vw;
+    width: 80vw;
+    left: 10vw;
     height: 300px;
-    transform: translate3d(100vw, 0, 0);
+    //transform: translate3d(100vw, 0, 0);
 }
 
 ul {
@@ -15,7 +17,6 @@ ul {
     height: 100%;
     margin: 0;
     list-style: none;
-
 
     display: flex;
     flex-direction: column;
@@ -31,8 +32,9 @@ ul {
     height: 30px;
     div {
         width: 30px;
-        height: 5px;
-        margin: 5px 0;
+        height: 3px;
+        margin: 7px 0;
+        border-radius: 3px;
         background-color: white;
     }
 }

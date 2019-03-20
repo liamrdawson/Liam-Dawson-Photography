@@ -4,3 +4,12 @@ img {
     right: 0;
     z-index: -1;
 }
+
+body {
+    background: 
+        linear-gradient(black, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.2) 40%, transparent 80%),
+        url(../Gallery/IMG_9063.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
