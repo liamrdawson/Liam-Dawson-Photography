@@ -7,8 +7,8 @@ const images = [
     hero1,
 ]
 
-setInterval(() => {
-    let current = 0;
+let current = 0;
+setInterval(function() {
     for (var i = 0; i < images.length; i++) {
         images[i].style.opacity = 0;
     }
