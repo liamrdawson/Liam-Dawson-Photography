@@ -28,29 +28,34 @@ a {
     text-decoration: none;
     color: red; }
 
-img {
-  position: fixed;
-  height: 100vh;
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
   right: 0;
-  z-index: -1; }
+  bottom: 0; }
 
-.hero1 {
-  background: linear-gradient(black, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.2) 40%, transparent 80%), url(../Gallery/IMG_9063.jpg);
-  background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 100%; }
+.hero1, .hero2, .hero3 {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transition: opacity 3s;
+  z-index: -10; }
 
-.hero2 {
-  background: linear-gradient(black, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.2) 40%, transparent 80%), url(../Gallery/IMG_8894-2.jpg);
-  background-size: cover;
-  background-position-x: 50%;
-  background-position-y: 100%; }
+.transparent {
+  opacity: 0; }
 
-.hero3 {
-  background: linear-gradient(black, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.2) 40%, transparent 80%), url(../Gallery/IMG_9485.jpg);
-  background-size: cover;
-  background-position-x: 100%;
-  background-position-y: 100%; }
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  z-index: -11; }
 
 nav {
   grid-area: nav;
