@@ -8,7 +8,7 @@
     top: 50px;
     width: 100vw;
     height: calc(100vh - 50px);
-    transform: translate3d(100vh, 0, 0);
+    transform: translate3d(100vw, 0, 0);
     transition: transform 0.5s ease-in;
     background-color: black;
 }
