@@ -2,21 +2,22 @@
     grid-area: nav;
     position: absolute;
     display: flex;
-    flex-direction: row;
     justify-content: center;
 
-    top: 50px;
+    top: 0;
+    margin-left: -1rem;
     width: 100vw;
-    height: calc(100vh - 50px);
+    height: 100%;
     transform: translate3d(100vw, 0, 0);
     transition: transform 0.5s ease-in;
-    background-color: black;
+    background-color: $dark;
+    z-index: -1;
 }
 
 ul {
-    height: 100%;
-    margin: 0;
+    height: 50%;
     list-style: none;
+    margin-top: 20%;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -30,18 +31,18 @@ li {
 }
 
 .burger {
-    position: fixed;
-    top: 12px;
-    right: 15px;
+    position: static;
     width: 30px;
     height: 30px;
     div {
+        color: $light;
+        opacity: 0.8;
         width: 30px;
         height: 3px;
         margin: 7px 0;
         border-radius: 3px;
         transition: all .5s ease;
-        background-color: white;
+        background-color: $light;
     }
 }
 
@@ -77,4 +78,32 @@ li {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-6px, -5px);
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        display: inline-block;
+    }
+    .main-nav {
+        position: static;
+        display: inline-block;
+        transform: translate3d(0, 0, 0);
+        height: 50px;
+        width: 50%;
+        z-index: 1;
+        margin-right: 3%;
+    }
+    ul {
+        flex-direction: row;
+        height: 50px;
+        justify-content: space-between;
+        margin: 0;
+    }
+    li {
+        opacity: 1;
+        margin: 0;
+    }
+    .burger {
+        display: none;
+    }
 }
