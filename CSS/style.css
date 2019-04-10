@@ -118,13 +118,14 @@ ul {
   justify-content: center; }
 
 li {
-  margin: 3rem;
+  margin: 3vh;
   opacity: 0; }
 
 .burger {
   position: static;
   width: 30px;
-  height: 30px; }
+  height: 30px;
+  margin-top: 1vh; }
   .burger div {
     color: #fefefb;
     opacity: 0.8;

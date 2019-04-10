@@ -27,7 +27,7 @@ ul {
 }
 
 li {
-    margin: 3rem;
+    margin: 3vh;
     opacity: 0;
 }
 
@@ -35,6 +35,7 @@ li {
     position: static;
     width: 30px;
     height: 30px;
+    margin-top: 1vh;
     div {
         color: $light;
         opacity: 0.8;
