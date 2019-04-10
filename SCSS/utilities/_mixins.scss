@@ -1,6 +1,46 @@
 
-// BREAK POINTS
+//  STYLE
 
+    //  Apply to h1 - h5
+@mixin headline {
+    margin: 2.75rem 0 1rem;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    line-height: 1.15;
+}
 
+@mixin absolute-zero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
-//  TWEAK POINTS
+//  MEDIA QUERY
+
+    //  For standard screens
+@mixin mq($break){
+    $value: map-get($breakpoints, $break);
+    $sm:    map-get($breakpoints, 'sm');
+    @if $value < $sm {
+        @media screen and (max-width: $value) {
+            @content;
+        }
+    } @else {
+        @media screen and (min-width: $value) {
+            @content;
+        }
+    }
+}
+
+    //  For large phones and tablets in portrait
+@mixin mob-mq($break-min, $break-max) {
+    $min-value: map-get($breakpoints, $break-min);
+    $max-value: map-get($breakpoints, $break-max);
+    @media screen   and (min-device-width: $min-value)
+                    and (max-device-width: $max-value)
+                    and (orientation: portrait) {
+                        @content;
+                    }
+}

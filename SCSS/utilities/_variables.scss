@@ -1,22 +1,31 @@
 //  COLOR PALETTE
-// 
 $dark: #151515;
 $light: #fefefb;
+$warning: red;
+$success: green;
+$accent: blue;
 
 
+//  SPACING
 
-//  Design is for mobile first, variable below are for anything above mobile portrait.
+//  TYPE SCALE
+//    Perfect Fourth
+$h1: 3.052rem;
+$h2: 2.441rem;
+$h3: 1.953rem;
+$h4: 1.563rem;
+$h5: 1.25rem;
+$small: 0.8rem;
 
-//  Small tablets and large smartphones (landscape)
+//  MEDIA QUERY BREAKPOINTS
 
-$screen-sm-min: 576px;
-
-//  Small tablets (portrait)
-
-$screen-md-min: 768px;
-
-//  Tablets and small desktops
-
-
-
-//  Large tablets and desktops
+$breakpoints: (
+    // BREAK POINTS
+    'sm'    :   490px,
+    'med'   :   740px,
+    'large' :   1024px,
+    'x-lg'  :   1080px,
+    //  TWEAK POINTS
+    'tab-w'  :  768px,
+    'tab-l'  :  1024px 
+);

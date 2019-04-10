@@ -1,22 +1,6 @@
 
-// .fg {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     background: linear-gradient($dark 10%, 
-//                                 rgba(0,0,0,0.2) 40%, 
-//                                 transparent 80%);
-//     z-index: -9;
-// }
-
 .image-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    @include absolute-zero;
     z-index: -1;
 }
 
@@ -31,53 +15,44 @@
     z-index: -10;
 }
 
+.hero2 {
+    @include mq('sm') {
+        left: 0;
+    }
+}
+
 .hero4 {
     object-position: top left;
 }
-
 .hero5 {
     object-position: bottom;
 }
-
 .hero6 {
-    object-position: top right;
+    object-position: bottom right;
+}
+
+.narrow {
+    @include mq('sm') {
+        display: none
+    }
+    @include mob-mq('tab-w', 'tab-l') {
+        display: block;
+    }
 }
 
 .wide {
     display: none;
-}
-
-@media (min-width: 490px) {
-    .hero2 {
-        left: 0;
-    }
-    .wide {
+    @include mq('sm') {
         display: block;
     }
-    .narrow {
+    @include mob-mq('tab-w', 'tab-l') {
         display: none;
     }
-}
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-    .wide {
-        display: none;
-    }
-    .narrow {
-        display: block;
-    } 
 }
 
 .hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #333;
+    @include absolute-zero;
+    background-color: $dark;
     width: 100vw;
     margin: 0;
     padding: 0;
