@@ -19,7 +19,7 @@
 
 //  MEDIA QUERY
 
-    //  For standard screens
+//      For standard screens
 @mixin mq($break){
     $value: map-get($breakpoints, $break);
     $sm:    map-get($breakpoints, 'sm');
@@ -34,7 +34,7 @@
     }
 }
 
-    //  For large phones and tablets in portrait
+//      For large phones and tablets in portrait
 @mixin mob-mq($break-min, $break-max) {
     $min-value: map-get($breakpoints, $break-min);
     $max-value: map-get($breakpoints, $break-max);
