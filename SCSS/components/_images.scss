@@ -27,7 +27,7 @@
 .hero5 {
     object-position: bottom;
 }
-.hero6 {
+.hero3, .hero6 {
     object-position: bottom right;
 }
 
@@ -57,4 +57,11 @@
     margin: 0;
     padding: 0;
     z-index: -11;
+}
+
+.liam {
+    display: block;
+    width: 50%;
+    margin: $space1 auto;
+    border-radius: 50%;
 }

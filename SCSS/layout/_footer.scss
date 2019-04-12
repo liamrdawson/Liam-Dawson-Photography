@@ -1,5 +1,9 @@
-.main-footer {
+footer {
     grid-area: footer;
     text-align: center;
+    color: $dark;
     opacity: 0.6;
+    span {
+        margin: 1rem;
+    }
 }

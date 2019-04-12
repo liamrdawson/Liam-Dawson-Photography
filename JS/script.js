@@ -38,7 +38,7 @@ setInterval(function() {
 const navSlide = () => {
     const burger = document.querySelector(`.burger`);
     const nav = document.querySelector(`nav`);
-    const navLinks = document.querySelectorAll(`.main-nav ul li`);
+    const navLinks = document.querySelectorAll(`nav ul li`);
     burger.addEventListener(`click`, () => {
         //  Toggle NAV
         nav.classList.toggle(`active`);

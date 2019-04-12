@@ -5,7 +5,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+}
+
+.home-header {
     background-color: $dark;
+    h1 {
+        color: $light;
+    }
+    a {color: $light;}
 }
 
 h1 {
