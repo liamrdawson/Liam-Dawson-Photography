@@ -3,7 +3,9 @@ footer {
     text-align: center;
     color: $dark;
     opacity: 0.6;
+    margin-top: $space4;
+    padding: $space8;
     span {
-        margin: 1rem;
+        margin: $space8;
     }
 }

@@ -1,17 +1,26 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
 html, body {
   overflow-x: hidden;
-  font-size: 16px; }
+  font-size: 14px; }
+  @media screen and (min-width: 490px) {
+    html, body {
+      font-size: 16px; } }
+  @media screen and (min-width: 1200px) {
+    html, body {
+      font-size: 18px; } }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Lora", serif;
+  background-color: #fefefb;
   height: 100vh;
-  width: 100vw;
-  margin: 0; }
+  width: 100vw; }
   body p {
-    color: #151515; }
+    color: #151515;
+    margin-bottom: 0.75rem; }
 
 h1, h2, h3, h4, h5 {
   color: #151515;
@@ -21,15 +30,15 @@ h1, h2, h3, h4, h5 {
   line-height: 1.15; }
 
 h1 {
-  font-size: 1.953rem;
+  font-size: 2.441rem;
   margin: 2.75rem 0 1rem;
   font-family: 'Lora', serif;
   font-weight: 700;
   line-height: 1.15; }
 
 h2 {
-  font-size: 1.563rem;
-  margin: 0 auto;
+  font-size: 1.953rem;
+  margin: 3.157rem auto 0;
   background-color: #fefefb;
   color: #151515; }
 
@@ -39,43 +48,70 @@ h4 {
 h5 {
   font-size: 1.25rem;
   color: #151515;
-  text-align: center;
-  margin: 0; }
+  text-align: center; }
 
 main {
   grid-area: main;
   padding: 1rem;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
+  @media screen and (min-width: 490px) {
+    main {
+      width: 80%; } }
+  @media screen and (min-width: 740px) {
+    main {
+      width: 60%; } }
+  @media screen and (min-width: 1024px) {
+    main {
+      width: 50%; } }
+  @media screen and (min-width: 1200px) {
+    main {
+      width: 40%; } }
 
 section {
-  margin: 2.333rem 0; }
+  margin: 2.369rem 0; }
 
 section header {
   padding: 0;
   background-color: #fefefb;
   color: #151515; }
 
+p a {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  color: #b51500;
+  transition: color .8s; }
+  p a:hover {
+    color: #151515; }
+
 form {
   display: flex;
   flex-direction: column; }
-  form input {
+  form input, form textarea {
     background-color: rgba(21, 21, 21, 0.05);
+    font-size: 1rem;
+    padding: 0.563rem;
+    font-family: "Lora", serif;
     width: auto;
-    height: 4.157rem;
-    margin-top: 2rem;
+    height: 2.369rem;
+    margin-top: 0.563rem;
     border: none;
     border-radius: 2px; }
+  form textarea {
+    min-height: 400px;
+    max-width: 100%;
+    min-width: 100%; }
   form header h4 {
     text-align: center;
     margin: 0 auto; }
 
-a {
+li a, h1 a {
   color: #151515;
-  opacity: 0.8;
+  opacity: 0.6;
   text-transform: uppercase;
   text-decoration: none;
-  transition: opacity .3s; }
-  a:hover {
+  transition: opacity .8s; }
+  li a:hover, h1 a:hover {
     opacity: 1; }
 
 .image-container {
@@ -133,15 +169,20 @@ a {
   bottom: 0;
   background-color: #151515;
   width: 100vw;
-  margin: 0;
-  padding: 0;
   z-index: -11; }
 
 .liam {
   display: block;
   width: 50%;
-  margin: 2rem auto;
+  margin: 3.157rem auto;
   border-radius: 50%; }
+  @media screen and (min-width: 740px) {
+    .liam {
+      width: 40%; } }
+  @media screen and (min-width: 1024px) {
+    .liam {
+      margin: 1.777rem auto;
+      width: 35%; } }
 
 nav {
   grid-area: nav;
@@ -151,14 +192,15 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #151515;
+  margin-top: 3.157rem;
   margin-left: -1rem;
-  margin-top: 50px;
   width: 100vw;
   height: 100%;
   transform: translate3d(100vw, 0, 0);
   transition: transform 0.5s ease-in; }
   @media screen and (min-width: 740px) {
     nav {
+      visibility: visible;
       position: static;
       display: inline-block;
       transform: translate3d(0, 0, 0);
@@ -166,14 +208,19 @@ nav {
       width: 50%;
       z-index: 1;
       background-color: #fefefb;
-      margin-right: 3%;
       margin-top: 0; } }
+  @media screen and (min-width: 1024px) {
+    nav {
+      width: 40%; } }
+
+@media screen and (min-width: 740px) {
+  .home-nav {
+    background-color: #151515; } }
 
 ul {
   height: 50%;
   list-style: none;
-  margin-top: 10vh;
-  padding: 0;
+  margin-top: 7.478rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,12 +230,14 @@ ul {
       flex-direction: row;
       height: 50px;
       justify-content: space-between;
-      margin: 0; } }
+      margin: 0;
+      background-color: #fefefb; } }
 
 li {
-  margin: 3vh;
+  margin: 3.157rem;
   opacity: 0; }
   li a {
+    font-weight: 400;
     color: #fefefb; }
   @media screen and (min-width: 740px) {
     li {
@@ -200,8 +249,7 @@ li {
 .burger {
   position: static;
   width: 30px;
-  height: 30px;
-  margin-top: 1vh; }
+  height: 30px; }
   @media screen and (min-width: 740px) {
     .burger {
       display: none; } }
@@ -246,15 +294,40 @@ footer {
   grid-area: footer;
   text-align: center;
   color: #151515;
-  opacity: 0.6; }
+  opacity: 0.6;
+  margin-top: 3.157rem;
+  padding: 1rem; }
   footer span {
     margin: 1rem; }
 
 body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px auto 50px;
+  grid-template-rows: 3.157rem auto 3.157rem;
   grid-template-areas: "header header header" "main main main" "footer footer footer"; }
+
+.gallery-main {
+  width: 70%; }
+
+.images {
+  background-color: grey;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 300px;
+  grid-gap: 1rem; }
+  @media screen and (min-width: 740px) {
+    .images {
+      grid-template-columns: 1fr 1fr; } }
+
+.image1 {
+  background-color: tomato; }
+.image2 {
+  background-color: orange; }
+.image3 {
+  background-color: green; }
+.image4 {
+  background-color: blue; }
 
 header {
   grid-area: header;
@@ -263,6 +336,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem; }
+  header h1 {
+    margin: 0;
+    display: inline-block; }
+    header h1 a {
+      opacity: 1; }
+    @media screen and (min-width: 740px) {
+      header h1 {
+        display: inline-block; } }
 
 .home-header {
   background-color: #151515; }
@@ -270,14 +351,5 @@ header {
     color: #fefefb; }
   .home-header a {
     color: #fefefb; }
-
-h1 {
-  margin: 0;
-  display: inline-block; }
-  h1 a {
-    opacity: 1; }
-  @media screen and (min-width: 740px) {
-    h1 {
-      display: inline-block; } }
 
 /*# sourceMappingURL=style.css.map */

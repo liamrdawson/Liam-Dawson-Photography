@@ -5,16 +5,29 @@ $shade: rgba($dark, .05);
 $warning: red;
 $success: green;
 $accent: blue;
+$brand: #b51500;
 
 
 //  SPACING
-$space1: 2rem;
-$space2: 2.333rem;
-$space3: 2.777rem;
-$space4: 3.369rem;
-$space5: 4.157rem;
+$space1: 7.478rem;
+$space2: 5.61rem;
+$space3: 4.209rem;
+$space4: 3.157rem;
+$space5: 2.369rem;
+$space6: 1.777rem;
+$space7: 1.333rem;
+$space8: 1rem;
+$space9: 0.75rem;
+$space10: 0.563rem;
+$space11: 0.422rem;
+$space12: 0.317rem;
 
-//  TYPE SCALE
+
+//  TYPE 
+$standard-font: 'Lora', serif;
+$title-font: 'Lora', serif;
+
+
 //    Perfect Fourth
 $h1: 3.052rem;
 $h2: 2.441rem;
@@ -29,7 +42,7 @@ $breakpoints: (
     'sm'    :   490px,
     'med'   :   740px,
     'large' :   1024px,
-    'x-lg'  :   1080px,
+    'x-lg'  :   1200px,
     //  tweakpoints
     'tab-w'  :  768px,
     'tab-l'  :  1024px 

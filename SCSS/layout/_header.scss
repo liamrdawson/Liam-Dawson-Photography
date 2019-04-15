@@ -4,7 +4,17 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: $space8;
+    h1 {
+        margin: 0;
+        display: inline-block;
+        a {
+            opacity: 1;
+        }
+        @include mq('med') {
+            display: inline-block;
+        }
+    }
 }
 
 .home-header {
@@ -15,13 +25,3 @@ header {
     a {color: $light;}
 }
 
-h1 {
-    margin: 0;
-    display: inline-block;
-    a {
-        opacity: 1;
-    }
-    @include mq('med') {
-        display: inline-block;
-    }
-}

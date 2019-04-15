@@ -54,14 +54,19 @@
     @include absolute-zero;
     background-color: $dark;
     width: 100vw;
-    margin: 0;
-    padding: 0;
     z-index: -11;
 }
 
 .liam {
     display: block;
     width: 50%;
-    margin: $space1 auto;
+    margin: $space4 auto;
     border-radius: 50%;
+    @include mq('med') {
+        width: 40%;
+    }
+    @include mq('large') {
+        margin: $space6 auto;
+        width: 35%;
+    }
 }

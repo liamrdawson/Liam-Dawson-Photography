@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto" rel="stylesheet">  
     <title>About</title>
 </head>
-<body class="index">
+<body class="about">
     <header>
         <h1 class="name"><a href="index.html">Liam&nbsp;R.&nbsp;Dawson</a></h1>
         <div class="burger">
@@ -18,10 +18,10 @@
         </div>
         <nav>
             <ul>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Prints</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About / Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="prints.html">Prints</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About / Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -35,10 +35,13 @@
                 <h5>Background</h5>
             </header>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut unde veniam tempora, ex et mollitia inventore non placeat possimus adipisci quaerat aliquid accusantium quae dolore veritatis magni distinctio quos nisi!
+                Liam Dawson is a developer and photographer living in Brighton.
             </p>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus nemo dolores vel. Dolor delectus veniam perferendis, placeat suscipit quae saepe porro nulla voluptas itaque, doloribus voluptatem, dolores dolorum recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque excepturi nostrum veritatis doloremque! Architecto ad repellat dolores doloremque provident molestiae quibusdam saepe, nulla, laboriosam est porro vitae in consequuntur repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident hic necessitatibus officia architecto ipsa repudiandae. Nostrum mollitia magni vel natus totam, nemo ullam repellendus, necessitatibus nam earum sed ducimus quo.
+                As a street phographer, his work focuses on humanistic themes and portraiture of everyday life in Brighton and London, drawing inspiration from photographers such as Ernst Haas, Saul Leiter and Fan Ho.
+            </p>
+            <p>
+                He works in digital mediums and shares work and photographic notes on his Instagram account; <a href="https://www.instagram.com/liamrdawson">@liamrdawson</a>, where he engages with an enthusiastic and passionate group of amateur and professional photographers alike.
             </p>
         </section>
         <section>
@@ -46,16 +49,17 @@
                 <h5>Project Enquiries</h5>
             </header>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, at rerum. Doloremque, quaerat! Et, doloribus ex, autem cupiditate ipsum, praesentium rem blanditiis voluptas perspiciatis necessitatibus soluta rerum saepe id maxime.
+                If you would like to make an enquiry about either a photography or a web development project, please email <a href="mailto:liamrdawson@gmail.com">liamrdawson@gmail.com</a>, call on 07751 181 541, or use the contact form below.
             </p>
         </section>
         <form action="post">
             <header>
-                <h4>Contact</h4>
+                <h2>Contact</h2>
             </header>
-            <input type="text" name="Name">
-            <input type="email" name="Email">
-            <input type="text" name="Phone number">
+            <input type="text" id="name" name="user_ame" placeholder="Name">
+            <input type="email" id="mail" name="user_email" placeholder="Email">
+            <input type="tel" id="phone" name="user_phone_number" placeholder="Phone number">
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Message"></textarea>
         </form>
     </main>
     <footer>
