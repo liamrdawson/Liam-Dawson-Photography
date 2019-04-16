@@ -41,7 +41,7 @@ h1 {
 
 h2 {
     font-size: $h3;
-    margin: $space4 auto 0;
+    margin: $space4 auto;
     background-color: $light;
     color: $dark;
 }
@@ -88,6 +88,7 @@ section header {
 
 p a {
     font-family: $title-font;
+    text-decoration: none;
     font-weight: 700;
     color: $brand;
     transition: color .8s;

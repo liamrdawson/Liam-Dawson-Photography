@@ -1,0 +1,9 @@
+.gallery-main {
+    width: 90%;
+    @include mq('sm') {
+        width: 85%
+    }
+    @include mq('med') {
+        width: 75%;
+    }
+}

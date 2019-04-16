@@ -9,26 +9,17 @@ body {
         "footer footer footer";
 }
 
-.gallery-main {
-    width: 70%;
-}
 
 .images {
-    background-color: grey;
     display: grid;
     height: 100%;
     grid-template-columns: 1fr;
-    grid-auto-rows: 300px;
+    grid-auto-rows: auto;
     grid-gap: $space8;
     @include mq('med') {
         grid-template-columns: 1fr 1fr;
     }
-}
-
-.image {
-    &1 {background-color: tomato}
-    &2 {background-color: orange}
-    &3 {background-color: green}
-    &4 {background-color: blue}
-
+    @include mq('large') {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
