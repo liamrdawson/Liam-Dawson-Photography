@@ -299,13 +299,16 @@ li {
   transform: rotate(45deg) translate(-6px, -5px); }
 
 .gallery-main {
-  width: 90%; }
+  width: 95%; }
   @media screen and (min-width: 490px) {
     .gallery-main {
       width: 85%; } }
   @media screen and (min-width: 740px) {
     .gallery-main {
       width: 75%; } }
+  @media screen and (min-width: 1024px) {
+    .gallery-main {
+      width: 60%; } }
 
 footer {
   grid-area: footer;
