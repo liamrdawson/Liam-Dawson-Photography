@@ -17,9 +17,12 @@ body {
     grid-auto-rows: auto;
     grid-gap: $space8;
     @include mq('med') {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-gap: $space5;
     }
-    @include mq('large') {
+    @include mq('x-lg') {
+        // grid-auto-rows: 30vh;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

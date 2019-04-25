@@ -192,6 +192,9 @@ li a, h1 a {
   object-position: center;
   margin: auto; }
 
+.wide-panel {
+  grid-column-end: span 2; }
+
 nav {
   grid-area: nav;
   position: absolute;
@@ -313,12 +316,9 @@ li {
 footer {
   grid-area: footer;
   text-align: center;
-  color: #151515;
+  color: white;
   opacity: 0.6;
-  margin-top: 3.157rem;
-  padding: 1rem; }
-  footer span {
-    margin: 1rem; }
+  border: red solid 2px; }
 
 body {
   display: grid;
@@ -334,8 +334,10 @@ body {
   grid-gap: 1rem; }
   @media screen and (min-width: 740px) {
     .images {
-      grid-template-columns: 1fr 1fr; } }
-  @media screen and (min-width: 1024px) {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: auto;
+      grid-gap: 2.369rem; } }
+  @media screen and (min-width: 1200px) {
     .images {
       grid-template-columns: 1fr 1fr 1fr; } }
 

@@ -1,11 +1,8 @@
 footer {
     grid-area: footer;
     text-align: center;
-    color: $dark;
+    color: white;
     opacity: 0.6;
-    margin-top: $space4;
-    padding: $space8;
-    span {
-        margin: $space8;
-    }
+
+    border: red solid 2px;
 }
