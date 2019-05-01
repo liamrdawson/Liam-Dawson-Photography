@@ -1,4 +1,20 @@
 
+//  SET UP LIGHTBOX TO DISPLAY SELECTED IMAGES - INCLUDE PREVIOUS / NEXT NAVIGATORS
+
+const lightBox = () => {
+    const thumb = document.querySelector(`.thumb`);
+    
+    
+    thumb.addEventListener(`click`), () => {
+
+    };
+
+
+}
+
+
+//  ANIMATE NAV SLIDER ANIMATIONS ON BURGER MENU CLICK
+
 const navSlide = () => {
     const burger = document.querySelector(`.burger`);
     const nav = document.querySelector(`nav`);

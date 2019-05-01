@@ -1,3 +1,6 @@
+
+// ROTATE THE IMAGES ON INDEX.HTML
+
 const hero1 = document.querySelector(`.hero1`);
 const hero2 = document.querySelector(`.hero2`);
 const hero3 = document.querySelector(`.hero3`);
