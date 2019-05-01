@@ -81,8 +81,15 @@
     object-fit: contain;
     object-position: center;
     margin: auto;
+    transition: opacity .5s ease;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
 }
 
 .wide-panel {
+    @include mq('med'){
     grid-column-end: span 2;
+    }
 }

@@ -190,10 +190,15 @@ li a, h1 a {
   max-height: 100%;
   object-fit: contain;
   object-position: center;
-  margin: auto; }
+  margin: auto;
+  transition: opacity .5s ease;
+  cursor: pointer; }
+  .thumb:hover {
+    opacity: 0.8; }
 
-.wide-panel {
-  grid-column-end: span 2; }
+@media screen and (min-width: 740px) {
+  .wide-panel {
+    grid-column-end: span 2; } }
 
 nav {
   grid-area: nav;
@@ -331,7 +336,7 @@ body {
   height: 100%;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  grid-gap: 1rem; }
+  grid-row-gap: 1rem; }
   @media screen and (min-width: 740px) {
     .images {
       grid-template-columns: 1fr 1fr 1fr;

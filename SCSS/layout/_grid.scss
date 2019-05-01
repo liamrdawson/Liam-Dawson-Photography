@@ -15,11 +15,11 @@ body {
     height: 100%;
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
-    grid-gap: $space8;
+    grid-row-gap: $space8;
     @include mq('med') {
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: auto;
-        grid-gap: $space5;
+       grid-gap: $space5;
     }
     @include mq('x-lg') {
         // grid-auto-rows: 30vh;
