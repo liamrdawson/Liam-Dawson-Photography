@@ -221,6 +221,24 @@ li a, h1 a {
     object-position: center;
     margin: 0 auto; }
 
+.arrow-parent-left, .arrow-parent-right {
+  width: 100px;
+  position: absolute;
+  fill: white;
+  top: 40%; }
+.arrow-parent-left {
+  left: 10%; }
+.arrow-parent-right {
+  right: 10%; }
+
+.arrow {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: all .3s ease-in; }
+
+.arrow:hover {
+  opacity: 1; }
+
 nav {
   grid-area: nav;
   position: absolute;

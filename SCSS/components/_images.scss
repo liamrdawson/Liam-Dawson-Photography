@@ -118,3 +118,30 @@
     }
 }
 
+
+
+.arrow-parent{    
+    &-left, &-right {
+    width: 100px;
+    position: absolute;
+    fill: white;
+    top: 40%;
+    }
+    &-left {
+        left: 10%;
+    }
+    &-right {
+        right: 10%;
+    }
+}
+
+.arrow {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all .3s ease-in;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
