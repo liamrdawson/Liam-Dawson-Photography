@@ -201,14 +201,14 @@ li a, h1 a {
     grid-column-end: span 2; } }
 
 .lightbox {
-  visibility: visible;
+  visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   align-text: center;
-  background-color: rgba(21, 21, 21, 0.98);
+  background-color: #fefefb;
   z-index: 10;
   display: flex;
   flex-direction: row;
@@ -221,23 +221,8 @@ li a, h1 a {
     object-position: center;
     margin: 0 auto; }
 
-.arrow-parent-left, .arrow-parent-right {
-  width: 100px;
-  position: absolute;
-  fill: white;
-  top: 40%; }
-.arrow-parent-left {
-  left: 10%; }
-.arrow-parent-right {
-  right: 10%; }
-
-.arrow {
-  cursor: pointer;
-  opacity: 0.4;
-  transition: all .3s ease-in; }
-
-.arrow:hover {
-  opacity: 1; }
+.show {
+  visibility: visible; }
 
 nav {
   grid-area: nav;
@@ -344,6 +329,44 @@ li {
 
 .toggle .line3 {
   transform: rotate(45deg) translate(-6px, -5px); }
+
+.close-icon {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 60px;
+  right: 5%;
+  z-index: 100;
+  cursor: pointer; }
+  .close-icon div {
+    height: 6px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #151515; }
+
+.bar-1 {
+  transform: rotate(-45deg) translate(-9px, 8px); }
+.bar-2 {
+  transform: rotate(45deg) translate(5px, 5px); }
+
+.arrow-parent-left, .arrow-parent-right {
+  width: 100px;
+  position: absolute;
+  fill: #151515;
+  top: 40%; }
+.arrow-parent-left {
+  left: 5%; }
+.arrow-parent-right {
+  right: 5%; }
+
+.arrow,
+.close-icon {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all .3s ease-in; }
+
+.arrow:hover, .close-icon:hover {
+  opacity: 1; }
 
 .gallery-main {
   width: 95%; }

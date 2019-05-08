@@ -96,14 +96,14 @@
 
 
 .lightbox {
-    visibility: visible;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     align-text: center;
-    background-color: rgba($dark, 0.98);
+    background-color: $light;
     z-index: 10;
     display: flex;
     flex-direction: row;
@@ -118,30 +118,6 @@
     }
 }
 
-
-
-.arrow-parent{    
-    &-left, &-right {
-    width: 100px;
-    position: absolute;
-    fill: white;
-    top: 40%;
-    }
-    &-left {
-        left: 10%;
-    }
-    &-right {
-        right: 10%;
-    }
+.show {
+    visibility: visible;
 }
-
-.arrow {
-    cursor: pointer;
-    opacity: 0.4;
-    transition: all .3s ease-in;
-}
-
-.arrow:hover {
-    opacity: 1;
-}
-

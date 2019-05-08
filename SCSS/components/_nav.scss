@@ -106,7 +106,6 @@ li {
 }
 
 
-
 @keyframes navLinkFade {
     from{
         opacity: 0;
@@ -129,3 +128,59 @@ li {
 .toggle .line3 {
     transform: rotate(45deg) translate(-6px, -5px);
 }
+
+
+//  IMAGE GALLERY NAV
+
+.close-icon {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 60px;
+    right: 5%;
+    z-index: 100;
+    cursor: pointer;
+    div {
+        height: 6px;
+        width: 40px;
+        border-radius: 3px;
+        background-color: $dark;
+    }
+
+}
+
+.bar {
+    &-1 {
+        transform: rotate(-45deg) translate(-9px, 8px);
+    }
+    &-2 {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+}
+
+.arrow-parent{    
+    &-left, &-right {
+    width: 100px;
+    position: absolute;
+    fill: $dark;
+    top: 40%;
+    }
+    &-left {
+        left: 5%;
+    }
+    &-right {
+        right: 5%;
+    }
+}
+
+.arrow, 
+.close-icon {
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all .3s ease-in;
+}
+
+.arrow:hover, .close-icon:hover {
+    opacity: 1;
+}
+
