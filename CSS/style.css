@@ -203,6 +203,9 @@ li a, h1 a {
   .wide-panel {
     grid-column-end: span 2; } }
 
+.noOverflow {
+  overflow: hidden; }
+
 .lightbox {
   visibility: hidden;
   position: absolute;

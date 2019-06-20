@@ -1,39 +1,4 @@
 
-//  SET UP LIGHTBOX TO DISPLAY SELECTED IMAGES - INCLUDE PREVIOUS / NEXT NAVIGATORS
-
-const currentImg   = document.querySelector(`#current`);
-const imagesGroup    = document.querySelectorAll(`.images img`);
-const lightbox  = document.querySelector(`#lightbox`);
-const arrowLeft = document.querySelector(`#arrow-left`);
-const arrowRight = document.querySelector(`#arrow-right`);
-const closeGal = document.querySelector(`.close-icon`);
-
-imagesGroup.forEach(img => img.addEventListener(`click`, imgClick));
-
-function imgClick(e) {
-    //  Change source of current image to clicked image
-    currentImg.src = e.target.src;
-     //  Reveal chosen image fullscreen
-    lightbox.style.visibility = `visible`;
-}
-
-
-function clickOut(e) {
-    if (e.target === lightbox || e.target === closeGal) {
-        lightbox.style.visibility = `hidden`;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
 //  ANIMATE NAV SLIDER ANIMATIONS ON BURGER MENU CLICK
 
 const navSlide = () => {
