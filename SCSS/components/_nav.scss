@@ -71,6 +71,7 @@ li {
 
 .burger {
     position: static;
+    margin-top: 5px;
     width: 30px;
     height: 30px;
     @include mq('med') {

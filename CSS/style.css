@@ -291,6 +291,7 @@ li {
 
 .burger {
   position: static;
+  margin-top: 5px;
   width: 30px;
   height: 30px; }
   @media screen and (min-width: 740px) {
@@ -387,8 +388,7 @@ footer {
   grid-area: footer;
   text-align: center;
   color: white;
-  opacity: 0.6;
-  border: red solid 2px; }
+  opacity: 0.6; }
 
 body {
   display: grid;
