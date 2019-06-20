@@ -4,7 +4,6 @@
   margin: 0; }
 
 html, body {
-  overflow-x: hidden;
   font-size: 14px; }
   @media screen and (min-width: 490px) {
     html, body {
@@ -14,6 +13,7 @@ html, body {
       font-size: 18px; } }
 
 body {
+  overflow-x: hidden;
   font-family: "Lora", serif;
   background-color: #fefefb;
   height: 100vh;
@@ -21,6 +21,9 @@ body {
   body p {
     color: #151515;
     margin-bottom: 0.75rem; }
+
+.index-body {
+  overflow-y: hidden; }
 
 h1, h2, h3, h4, h5 {
   color: #151515;

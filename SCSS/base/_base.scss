@@ -5,7 +5,6 @@
 }
 
 html, body {
-    overflow-x: hidden;
     font-size: 14px;
     @include mq('sm') {
         font-size: 16px;
@@ -15,7 +14,9 @@ html, body {
     }
 }
 
+
 body {
+    overflow-x: hidden;
     font-family: $standard-font;
     background-color: $light;
     height: 100vh;
@@ -24,6 +25,10 @@ body {
         color: $dark;
         margin-bottom: $space9;
     }
+}
+
+.index-body {
+    overflow-y: hidden;
 }
 
 h1, h2, h3, h4, h5 {
