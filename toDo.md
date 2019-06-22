@@ -7,7 +7,7 @@
 ### Gallery
 
 - [x] Stop selected image from loading at top of page, load at top of window instead.
-- [ ] DOM manipulation; use left and right arrows to navigate between images.
+- [x] DOM manipulation; use left and right arrows to navigate between images.
 
 ### Prints
 
