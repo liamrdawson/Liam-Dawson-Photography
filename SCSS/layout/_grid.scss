@@ -1,4 +1,4 @@
-body {
+.overflow-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: $space4 auto $space4;

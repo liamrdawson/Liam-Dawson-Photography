@@ -9,78 +9,85 @@
     <title>Gallery</title>
 </head>
 <body class="gallery">
-    <header>
-        <h1 class="name"><a href="index.html">Liam&nbsp;R.&nbsp;Dawson</a></h1>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        <nav>
-            <ul>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="prints.html">Prints</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="about.html">About / Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="gallery-main">
+
+    <div class="overflow-container gallery">
+
         <header>
-            <h2>Gallery</h2>
-        </header>
-
-        <div class="lightbox" id="lightbox">
-
-            <div class="close-icon">
-                <div class="bar-1"></div>
-                <div class="bar-2"></div>
+            <h1 class="name"><a href="index.html">Liam&nbsp;R.&nbsp;Dawson</a></h1>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-           
-
-            <svg class="arrow-parent-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="arrow-left arrow" id="arrow-left" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
-
-            <img class="main-image" id="current" src="" alt="">
-
-            <svg class="arrow-parent-right" id="arrow-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right"  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="arrow-right arrow" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
-
-        </div>
-        
-        <div class="images">
-            <img class="thumb" src="gallery-thumbs/IMG_9540.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_9485.jpg">
-            <img class="thumb" src="gallery-thumbs/IMG_9418.jpg">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_9424.jpg">
+            <nav>
+                <ul>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="prints.html">Prints</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About / Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="gallery-main">
+            <header>
+                <h2>Gallery</h2>
+            </header>
+    
+            <div class="lightbox" id="lightbox">
+    
+                <div class="close-icon">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                </div>
+                
+    
+                <svg class="arrow-parent-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="arrow-left arrow" id="arrow-left" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
+    
+                <img class="main-image" id="current" src="" alt="">
+    
+                <svg class="arrow-parent-right" id="arrow-right" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right"  role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="arrow-right arrow" d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path></svg>
+    
+            </div>
             
-            <img class="thumb" src="gallery-thumbs/IMG_9121-2.jpg">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_9405.jpg">
-            <img class="thumb" src="gallery-thumbs/IMG_9097-2.jpg">
-            <img class="thumb" src="gallery-thumbs/IMG_9092-2.jpg">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_7423-2.jpg" alt="">
-            <img class="thumb"  src="gallery-thumbs/IMG_9063.jpg">
-            <img class="thumb" src="gallery-thumbs/IMG_9058.jpg">
-            <img class="thumb" src="gallery-thumbs/IMG_9034.jpg" alt="">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_74142.jpg" alt="">
-            
-            <img class="thumb" src="gallery-thumbs/IMG_8894-2.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8891-1.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8870-1.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8834-1.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8798-1.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8696-1.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_8674-2.jpg" alt="">
-            <img class="thumb" src="gallery-thumbs/IMG_7830 2.jpg" alt="">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_6473.jpg" alt="">
-            <img class="thumb wide-panel" src="gallery-thumbs/IMG_6084.jpg" alt="">
-        </div>
+            <div class="images">
+                <img class="thumb" src="gallery-thumbs/IMG_9540.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_9485.jpg">
+                <img class="thumb" src="gallery-thumbs/IMG_9418.jpg">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_9424.jpg">
+                
+                <img class="thumb" src="gallery-thumbs/IMG_9121-2.jpg">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_9405.jpg">
+                <img class="thumb" src="gallery-thumbs/IMG_9097-2.jpg">
+                <img class="thumb" src="gallery-thumbs/IMG_9092-2.jpg">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_7423-2.jpg" alt="">
+                <img class="thumb"  src="gallery-thumbs/IMG_9063.jpg">
+                <img class="thumb" src="gallery-thumbs/IMG_9058.jpg">
+                <img class="thumb" src="gallery-thumbs/IMG_9034.jpg" alt="">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_74142.jpg" alt="">
+                
+                <img class="thumb" src="gallery-thumbs/IMG_8894-2.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8891-1.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8870-1.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8834-1.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8798-1.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8696-1.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_8674-2.jpg" alt="">
+                <img class="thumb" src="gallery-thumbs/IMG_7830 2.jpg" alt="">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_6473.jpg" alt="">
+                <img class="thumb wide-panel" src="gallery-thumbs/IMG_6084.jpg" alt="">
+            </div>
+    
+        </main>
+        <footer>
+                <span>
+                        Liam R. Dawson &copy;
+                </span>
+        </footer>
+        <script src="JS/script.js"></script>
+        <script src="JS/gal.js"></script>
 
-    </main>
-    <footer>
-            <span>
-                    Liam R. Dawson &copy;
-            </span>
-    </footer>
-    <script src="JS/script.js"></script>
-    <script src="JS/gal.js"></script>
+    </div><!-- .OVERFLOW-CONTAINER -->
+
+    
 </body>
 </html>

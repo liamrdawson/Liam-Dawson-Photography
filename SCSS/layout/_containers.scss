@@ -1,3 +1,7 @@
+.overflow-container {
+    overflow: hidden;
+}
+
 .gallery-main {
     width: 95%;
     @include mq('sm') {

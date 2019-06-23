@@ -393,6 +393,9 @@ li {
 .arrow:hover, .close-icon:hover {
   opacity: 1; }
 
+.overflow-container {
+  overflow: hidden; }
+
 .gallery-main {
   width: 95%; }
   @media screen and (min-width: 490px) {
@@ -411,7 +414,7 @@ footer {
   color: white;
   opacity: 0.6; }
 
-body {
+.overflow-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 3.157rem auto 3.157rem;
