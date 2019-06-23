@@ -118,6 +118,26 @@ li a, h1 a {
   li a:hover, h1 a:hover {
     opacity: 1; }
 
+button {
+  height: 50px;
+  border-style: none;
+  border: 1px solid #151515;
+  border-radius: 2px;
+  background-color: #151515;
+  color: #fefefb;
+  margin-top: 0.563rem;
+  width: 50%;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition: color .2s ease-in, background-color .2s ease-in; }
+  button:hover {
+    cursor: pointer;
+    background-color: #fefefb;
+    color: #151515; }
+
 .image-container {
   position: absolute;
   top: 0;
@@ -178,14 +198,14 @@ li a, h1 a {
 .liam {
   display: block;
   width: 50%;
-  margin: 3.157rem auto;
+  margin: 0 auto;
   border-radius: 50%; }
   @media screen and (min-width: 740px) {
     .liam {
       width: 40%; } }
   @media screen and (min-width: 1024px) {
     .liam {
-      margin: 1.777rem auto;
+      margin: 0 auto;
       width: 35%; } }
 
 .thumb {

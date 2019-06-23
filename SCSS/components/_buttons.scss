@@ -1,0 +1,21 @@
+button {
+    height: 50px;
+    border-style: none;
+    border: 1px solid $dark;
+    border-radius: 2px;
+    background-color: $dark;
+    color: $light;
+    margin-top: $space10;
+    width: 50%;
+    font-family: $standard-font;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: color .2s ease-in, background-color .2s ease-in;
+    &:hover{
+        cursor: pointer;
+        background-color: $light;
+        color: $dark;
+    }
+}

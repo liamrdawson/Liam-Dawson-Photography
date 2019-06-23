@@ -57,16 +57,19 @@
     z-index: -11;
 }
 
+
+//      ABOUT PAGE
+
 .liam {
     display: block;
     width: 50%;
-    margin: $space4 auto;
+    margin: 0 auto;
     border-radius: 50%;
     @include mq('med') {
         width: 40%;
     }
     @include mq('large') {
-        margin: $space6 auto;
+        margin: 0 auto;
         width: 35%;
     }
 }
