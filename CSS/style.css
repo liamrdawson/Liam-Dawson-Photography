@@ -417,7 +417,7 @@ footer {
 .overflow-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 3.157rem 90vh 3.157rem;
+  grid-template-rows: 3.157rem minmax(90vh, auto) 3.157rem;
   grid-template-areas: "header header header" "main main main" "footer footer footer"; }
 
 .images {

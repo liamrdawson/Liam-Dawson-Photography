@@ -1,7 +1,7 @@
 .overflow-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: $space4 90vh $space4;
+    grid-template-rows: $space4 minmax(90vh, auto) $space4;
 
     grid-template-areas: 
         "header header header"
