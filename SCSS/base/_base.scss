@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: $h2;
+    font-size: $h3;
     @include headline;
     // @include mq('large') {
     //     font-size: $h2;
@@ -45,7 +45,7 @@ h1 {
 }
 
 h2 {
-    font-size: $h3;
+    font-size: $h4;
     margin: $space4 auto;
     background-color: $light;
     color: $dark;
