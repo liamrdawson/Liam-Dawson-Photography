@@ -17,7 +17,7 @@ nav {
         position: static;
         display: inline-block;
         transform: translate3d(0, 0, 0);
-        height: 50px;
+        height: 45px;
         width: 50%;
         z-index: 1;
         background-color: $light;
@@ -44,7 +44,7 @@ ul {
     justify-content: center;
     @include mq('med') {
         flex-direction: row;
-        height: 50px;
+        height: 45px;
         justify-content: space-between;
         margin: 0;
         background-color: $light;

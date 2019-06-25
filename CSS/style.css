@@ -268,7 +268,7 @@ nav {
       position: static;
       display: inline-block;
       transform: translate3d(0, 0, 0);
-      height: 50px;
+      height: 45px;
       width: 50%;
       z-index: 1;
       background-color: #fefefb;
@@ -292,7 +292,7 @@ ul {
   @media screen and (min-width: 740px) {
     ul {
       flex-direction: row;
-      height: 50px;
+      height: 45px;
       justify-content: space-between;
       margin: 0;
       background-color: #fefefb; } }
@@ -417,7 +417,7 @@ footer {
 .overflow-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 3.157rem auto 3.157rem;
+  grid-template-rows: 3.157rem 90vh 3.157rem;
   grid-template-areas: "header header header" "main main main" "footer footer footer"; }
 
 .images {
