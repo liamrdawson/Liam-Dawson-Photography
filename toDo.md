@@ -1,7 +1,8 @@
 # To Do List
 
-- [ ] Fix overflow issue on all pages.
-- [ ] Fix nav height on landscape mobile.
+- [x] Fix overflow issue on all pages.
+- [x] Fix nav height on landscape mobile.
+- [ ] Fix nav height on landscape mobile Firefox.
 
 
 ### Home
@@ -22,7 +23,9 @@
 
 ### Blog
 
+- [ ] Plan out workflow for publishing posts.
 - [ ] Add content.
+
 
 
 ### About / Contact
