@@ -415,6 +415,7 @@ footer {
   opacity: 0.6; }
 
 .overflow-container {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 3.157rem minmax(90vh, auto) 3.157rem;

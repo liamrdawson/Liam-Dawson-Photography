@@ -1,4 +1,5 @@
 .overflow-container {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: $space4 minmax(90vh, auto) $space4;
