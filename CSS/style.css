@@ -121,9 +121,9 @@ li a, h1 a {
 button {
   height: 50px;
   border-style: none;
-  border: 1px solid #151515;
+  border: 1px solid #fefefb;
   border-radius: 2px;
-  background-color: #151515;
+  background-color: #b51500;
   color: #fefefb;
   margin-top: 0.563rem;
   width: 50%;
@@ -135,8 +135,8 @@ button {
   transition: color .2s ease-in, background-color .2s ease-in; }
   button:hover {
     cursor: pointer;
-    background-color: #fefefb;
-    color: #151515; }
+    background-color: #151515;
+    color: #fefefb; }
 
 .image-container {
   position: absolute;

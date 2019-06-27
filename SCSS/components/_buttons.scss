@@ -1,9 +1,9 @@
 button {
     height: 50px;
     border-style: none;
-    border: 1px solid $dark;
+    border: 1px solid $light;
     border-radius: 2px;
-    background-color: $dark;
+    background-color: $brand;
     color: $light;
     margin-top: $space10;
     width: 50%;
@@ -15,7 +15,7 @@ button {
     transition: color .2s ease-in, background-color .2s ease-in;
     &:hover{
         cursor: pointer;
-        background-color: $light;
-        color: $dark;
+        background-color: $dark;
+        color: $light;
     }
 }
