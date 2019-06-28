@@ -4,6 +4,17 @@
     z-index: -1;
 }
 
+.sample-prints-container {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    margin: 0;
+    overflow: scroll;
+    img {
+        width: 30%;
+    }
+}
+
 .hero1, .hero2, .hero3,
 .hero4, .hero5, .hero6 {
     position: absolute;
