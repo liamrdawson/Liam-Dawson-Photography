@@ -368,8 +368,8 @@ li {
   height: 25px;
   width: 25px;
   position: absolute;
-  top: 60px;
-  right: 5%;
+  top: 5px;
+  right: 10%;
   z-index: 100;
   cursor: pointer; }
   .close-icon div {
