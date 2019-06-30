@@ -137,8 +137,8 @@ li {
     height: 25px;
     width: 25px;
     position: absolute;
-    top: 8px;
-    right: 10%;
+    top: 10px;
+    right: 20px;
     z-index: 100;
     cursor: pointer;
     div {
@@ -146,6 +146,10 @@ li {
         width: 30px;
         border-radius: 2px;
         background-color: $dark;
+    }
+    @include mq('med'){
+        top: 25px;
+        right: 20%;
     }
 
 }
