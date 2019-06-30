@@ -170,13 +170,14 @@ li {
 }
 
 .next, .previous, 
-.close-icon {
+.close {
     cursor: pointer;
     opacity: 0.6;
     transition: all .3s ease-in;
+    margin: 0 $space8;
 }
 
-.next:hover, .close-icon:hover, .previous:hover {
+.next:hover, .close:hover, .previous:hover {
     opacity: 1;
 }
 

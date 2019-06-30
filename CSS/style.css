@@ -111,7 +111,7 @@ form {
 
 li a, h1 a {
   color: #151515;
-  opacity: 0.6;
+  opacity: 0.8;
   text-transform: uppercase;
   text-decoration: none;
   transition: opacity .8s; }
@@ -393,12 +393,13 @@ li {
   color: #151515; }
 
 .next, .previous,
-.close-icon {
+.close {
   cursor: pointer;
   opacity: 0.6;
-  transition: all .3s ease-in; }
+  transition: all .3s ease-in;
+  margin: 0 1rem; }
 
-.next:hover, .close-icon:hover, .previous:hover {
+.next:hover, .close:hover, .previous:hover {
   opacity: 1; }
 
 .overflow-container {
