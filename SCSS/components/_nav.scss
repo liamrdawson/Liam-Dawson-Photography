@@ -134,6 +134,7 @@ li {
 //  IMAGE GALLERY NAV
 
 .close-icon {
+    display: none;
     height: 25px;
     width: 25px;
     position: absolute;
@@ -147,9 +148,10 @@ li {
         border-radius: 2px;
         background-color: $dark;
     }
-    @include mq('med'){
+    @include mq('large'){
         top: 25px;
         right: 20%;
+        display: inline-block
     }
 
 }

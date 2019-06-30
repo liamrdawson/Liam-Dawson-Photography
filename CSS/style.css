@@ -249,7 +249,7 @@ button {
   justify-content: center; }
   .lightbox img {
     max-width: 100%;
-    max-height: 95%;
+    max-height: 93%;
     object-fit: contain;
     object-position: center;
     margin: auto; }
@@ -365,6 +365,7 @@ li {
   transform: rotate(45deg) translate(-6px, -5px); }
 
 .close-icon {
+  display: none;
   height: 25px;
   width: 25px;
   position: absolute;
@@ -377,10 +378,11 @@ li {
     width: 30px;
     border-radius: 2px;
     background-color: #151515; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 1024px) {
     .close-icon {
       top: 25px;
-      right: 20%; } }
+      right: 20%;
+      display: inline-block; } }
 
 .bar-1 {
   transform: rotate(-45deg) translate(-10px, 5px); }
