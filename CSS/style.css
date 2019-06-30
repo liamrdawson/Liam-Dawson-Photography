@@ -364,31 +364,6 @@ li {
 .toggle .line3 {
   transform: rotate(45deg) translate(-6px, -5px); }
 
-.close-icon {
-  display: none;
-  height: 25px;
-  width: 25px;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  z-index: 100;
-  cursor: pointer; }
-  .close-icon div {
-    height: 2px;
-    width: 30px;
-    border-radius: 2px;
-    background-color: #151515; }
-  @media screen and (min-width: 1024px) {
-    .close-icon {
-      top: 25px;
-      right: 20%;
-      display: inline-block; } }
-
-.bar-1 {
-  transform: rotate(-45deg) translate(-10px, 5px); }
-.bar-2 {
-  transform: rotate(45deg) translate(4px, 9px); }
-
 .controls {
   color: #151515; }
 
