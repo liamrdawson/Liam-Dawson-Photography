@@ -2,6 +2,11 @@
     overflow: hidden;
 }
 
+.controls {
+    text-align: center;
+    height: 50px;
+}
+
 .gallery-main {
     width: 95%;
     @include mq('sm') {

@@ -3,9 +3,8 @@ const currentImg   = document.querySelector(`#current`);
 const imagesGroup  = document.querySelectorAll(`.images img`);
 
 const lightbox  = document.querySelector(`#lightbox`);
-const arrowLeft = document.querySelector(`#arrow-left`);
-const arrowRight = document.querySelector(`#arrow-right`);
-const arrows = [arrowLeft, arrowRight];
+const previous = document.querySelector(`#previous`);
+const next = document.querySelector(`#next`);
 const closeGal = document.querySelector(`.close-icon`);
 const body = document.querySelector(`body`);
 const bar1 = document.querySelector(`.bar-1`);
@@ -40,12 +39,12 @@ function clickOut(e) {
     }
 }
 
-arrowLeft.addEventListener(`click`, function() {
+previous.addEventListener(`click`, function() {
     indexOfCurrent--;
     currentImg.src = arrayOfImages[indexOfCurrent].src;
  });
 
-arrowRight.addEventListener(`click`, function() {
+next.addEventListener(`click`, function() {
    indexOfCurrent++;
     currentImg.src = arrayOfImages[indexOfCurrent].src;
 });

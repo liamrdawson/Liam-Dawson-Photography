@@ -245,7 +245,7 @@ button {
   background-color: #fefefb;
   z-index: 10;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center; }
   .lightbox img {
     max-width: 100%;
@@ -365,45 +365,42 @@ li {
   transform: rotate(45deg) translate(-6px, -5px); }
 
 .close-icon {
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
   position: absolute;
   top: 60px;
   right: 5%;
   z-index: 100;
   cursor: pointer; }
   .close-icon div {
-    height: 6px;
-    width: 40px;
-    border-radius: 3px;
+    height: 2px;
+    width: 30px;
+    border-radius: 2px;
     background-color: #151515; }
 
 .bar-1 {
-  transform: rotate(-45deg) translate(-9px, 8px); }
+  transform: rotate(-45deg) translate(-10px, 5px); }
 .bar-2 {
-  transform: rotate(45deg) translate(5px, 5px); }
+  transform: rotate(45deg) translate(4px, 9px); }
 
-.arrow-parent-left, .arrow-parent-right {
-  width: 100px;
-  position: absolute;
-  fill: #151515;
-  top: 40%; }
-.arrow-parent-left {
-  left: 5%; }
-.arrow-parent-right {
-  right: 5%; }
+.controls {
+  color: #151515; }
 
-.arrow,
+.next, .previous,
 .close-icon {
   cursor: pointer;
   opacity: 0.6;
   transition: all .3s ease-in; }
 
-.arrow:hover, .close-icon:hover {
+.next:hover, .close-icon:hover, .previous:hover {
   opacity: 1; }
 
 .overflow-container {
   overflow: hidden; }
+
+.controls {
+  text-align: center;
+  height: 50px; }
 
 .gallery-main {
   width: 95%; }
