@@ -23,7 +23,8 @@
 
 - [x] Add content.
 - [ ] Restructure contents.
-
+- [ ] Add contact form.
+- [ ] Add form validation.
 
 ### Blog
 
@@ -35,4 +36,5 @@
 ### About / Contact
 
 - [x] Add 'Send Message' button.
+- [ ] Add form validation.
 - [ ] Add POST behaviour to contact form
