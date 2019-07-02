@@ -443,14 +443,14 @@ header {
       header h1 {
         display: inline-block; } }
 
-.main-header {
+.main-header, .home-header {
   margin: 0 auto;
   width: 100vw; }
   @media screen and (min-width: 740px) {
-    .main-header {
+    .main-header, .home-header {
       width: 90vw; } }
   @media screen and (min-width: 1200px) {
-    .main-header {
+    .main-header, .home-header {
       width: 75vw; } }
 
 .home-header {

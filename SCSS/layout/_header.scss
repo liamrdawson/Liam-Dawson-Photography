@@ -18,7 +18,7 @@ header {
     }
 }
 
-.main-header {
+.main-header, .home-header {
     margin: 0 auto;
     width: 100vw;
     @include mq('med') {
