@@ -21,7 +21,7 @@ header {
 .main-header, .home-header {
     margin: 0 auto;
     width: 100vw;
-    @include mq('med') {
+    @include mq('large') {
         width: 90vw;
     }
     @include mq('x-lg') {

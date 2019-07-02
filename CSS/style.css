@@ -446,7 +446,7 @@ header {
 .main-header, .home-header {
   margin: 0 auto;
   width: 100vw; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 1024px) {
     .main-header, .home-header {
       width: 90vw; } }
   @media screen and (min-width: 1200px) {
