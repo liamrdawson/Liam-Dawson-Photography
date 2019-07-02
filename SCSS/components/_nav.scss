@@ -18,13 +18,16 @@ nav {
         display: inline-block;
         transform: translate3d(0, 0, 0);
         height: 45px;
-        width: 50%;
+        width: 60%;
         z-index: 1;
         background-color: $light;
         margin-top: 0;
     }
     @include mq('large') {
-        width: 40%;
+        width: 50%;
+    }
+    @include mq('x-lg') {
+        width: 45%;
     }
 }
 
@@ -132,6 +135,7 @@ li {
 
 
 //  IMAGE GALLERY NAV
+
 
 .controls {
     color: $dark;

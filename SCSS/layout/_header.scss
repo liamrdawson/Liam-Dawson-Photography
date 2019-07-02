@@ -1,3 +1,4 @@
+
 header {
     grid-area: header;
     display: flex;
@@ -14,6 +15,17 @@ header {
         @include mq('med') {
             display: inline-block;
         }
+    }
+}
+
+.main-header {
+    margin: 0 auto;
+    width: 100vw;
+    @include mq('med') {
+        width: 90vw;
+    }
+    @include mq('x-lg') {
+        width: 75vw;
     }
 }
 
