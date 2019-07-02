@@ -23,8 +23,9 @@
 
 - [x] Add content.
 - [ ] Restructure contents.
-- [ ] Add contact form.
-- [ ] Add form validation.
+- [x] ~~Add contact form.~~
+- [ ] Redirect Make an Equiry button to contact form on About/Contact page.
+
 
 ### Blog
 
