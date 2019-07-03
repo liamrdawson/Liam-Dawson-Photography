@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5 {
   font-weight: 700;
   line-height: 1.15; }
 
+.success-h1 {
+  font-size: 4.209rem; }
+
 h1 {
   font-size: 1.563rem;
   margin: 2.75rem 0 1rem;
@@ -398,6 +401,10 @@ li {
   @media screen and (min-width: 1024px) {
     .gallery-main {
       width: 60%; } }
+
+.success-container {
+  margin: auto;
+  text-align: center; }
 
 footer {
   grid-area: footer;
