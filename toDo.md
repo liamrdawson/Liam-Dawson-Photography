@@ -17,7 +17,7 @@
 - [x] DOM manipulation; use left and right arrows to navigate between images.
 - [x] Swap arrows out for Previous, Next, ~~Close~~.
 - [ ] Use MasonryJS to arrange gallery.
-- [ ] Change the way images are sourced, use an API to pull from an image hosting platform.
+- [x] ~~Change the way images are sourced, use an API to pull from an image hosting platform.~~
 
 ### Prints
 
@@ -38,4 +38,5 @@
 
 - [x] Add 'Send Message' button.
 - [ ] Add form validation.
-- [x] Add POST behaviour to contact form
+- [x] Add honeypot field.
+- [x] Add POST behaviour to contact form.

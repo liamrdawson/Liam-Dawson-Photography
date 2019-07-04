@@ -121,6 +121,10 @@ li a, h1 a {
   li a:hover, h1 a:hover {
     opacity: 1; }
 
+.hidden {
+  visibility: hidden;
+  position: absolute; }
+
 button {
   height: 50px;
   border-style: none;

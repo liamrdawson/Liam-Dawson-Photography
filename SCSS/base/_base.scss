@@ -145,3 +145,8 @@ li a, h1 a {
         opacity: 1;
     }
 }
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+}
