@@ -5,7 +5,7 @@
 
 html, body {
   font-size: 14px; }
-  @media screen and (min-width: 490px) {
+  @media screen and (min-width: 640px) {
     html, body {
       font-size: 16px; } }
   @media screen and (min-width: 1200px) {
@@ -272,9 +272,9 @@ nav {
   margin-left: -1rem;
   width: 100vw;
   height: 100vh;
-  transform: translate3d(100vw, 0, 0);
+  transform: translate3d(105vw, 0, 0);
   transition: transform 0.5s ease-in; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 568px) {
     nav {
       visibility: visible;
       position: static;
@@ -295,7 +295,7 @@ nav {
 .scroll-y {
   overflow-y: hidden; }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 568px) {
   .home-nav {
     background-color: #151515; } }
 
@@ -307,7 +307,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 568px) {
     ul {
       flex-direction: row;
       height: 45px;
@@ -321,7 +321,7 @@ li {
   li a {
     font-weight: 400;
     color: #fefefb; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 568px) {
     li {
       opacity: 1;
       margin: 0; }
@@ -333,7 +333,7 @@ li {
   margin-top: 5px;
   width: 30px;
   height: 30px; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 568px) {
     .burger {
       display: none; } }
   .burger div {
