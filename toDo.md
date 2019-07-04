@@ -8,7 +8,7 @@
 ### Home
 
 - [x] Done.
-- [ ] Compress slideshow images.
+- [x] Compress slideshow images.
  
 
 ### Gallery
