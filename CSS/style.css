@@ -64,7 +64,7 @@ main {
   @media screen and (min-width: 490px) {
     main {
       width: 80%; } }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     main {
       width: 60%; } }
   @media screen and (min-width: 1024px) {
@@ -212,7 +212,7 @@ button {
   width: 50%;
   margin: 0 auto;
   border-radius: 50%; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     .liam {
       width: 40%; } }
   @media screen and (min-width: 1024px) {
@@ -231,7 +231,7 @@ button {
   .thumb:hover {
     opacity: 0.8; }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 640px) {
   .wide-panel {
     grid-column-end: span 2; } }
 
@@ -274,7 +274,7 @@ nav {
   height: 100vh;
   transform: translate3d(100vw, 0, 0);
   transition: transform 0.5s ease-in; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     nav {
       visibility: visible;
       position: static;
@@ -295,7 +295,7 @@ nav {
 .scroll-y {
   overflow-y: hidden; }
 
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 640px) {
   .home-nav {
     background-color: #151515; } }
 
@@ -307,7 +307,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     ul {
       flex-direction: row;
       height: 45px;
@@ -321,7 +321,7 @@ li {
   li a {
     font-weight: 400;
     color: #fefefb; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     li {
       opacity: 1;
       margin: 0; }
@@ -333,7 +333,7 @@ li {
   margin-top: 5px;
   width: 30px;
   height: 30px; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     .burger {
       display: none; } }
   .burger div {
@@ -398,7 +398,7 @@ li {
   @media screen and (min-width: 490px) {
     .gallery-main {
       width: 85%; } }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     .gallery-main {
       width: 75%; } }
   @media screen and (min-width: 1024px) {
@@ -428,7 +428,7 @@ footer {
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
   grid-row-gap: 1rem; }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 640px) {
     .images {
       grid-template-columns: 1fr 1fr 1fr;
       grid-auto-rows: auto;
@@ -449,7 +449,7 @@ header {
     display: inline-block; }
     header h1 a {
       opacity: 1; }
-    @media screen and (min-width: 740px) {
+    @media screen and (min-width: 640px) {
       header h1 {
         display: inline-block; } }
 
