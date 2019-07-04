@@ -272,7 +272,7 @@ nav {
   margin-left: -1rem;
   width: 100vw;
   height: 100vh;
-  transform: translate3d(105vw, 0, 0);
+  transform: translate3d(100vw, 0, 0);
   transition: transform 0.5s ease-in; }
   @media screen and (min-width: 568px) {
     nav {
