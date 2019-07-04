@@ -31,6 +31,10 @@ nav {
     }
 }
 
+.scroll-y {
+    overflow-y: hidden;
+}
+
 .home-nav {
     @include mq('med') {
         background-color: $dark;

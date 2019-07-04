@@ -5,7 +5,10 @@ const navSlide = () => {
     const burger = document.querySelector(`.burger`);
     const nav = document.querySelector(`nav`);
     const navLinks = document.querySelectorAll(`nav ul li`);
+    const body = document.querySelector(`body`);
     burger.addEventListener(`click`, () => {
+        //      Toggle body scroll-y
+        body.classList.toggle('scroll-y');
         //  Toggle NAV
         nav.classList.toggle(`active`);
         //  Fade links on reveal

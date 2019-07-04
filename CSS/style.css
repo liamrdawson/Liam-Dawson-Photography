@@ -292,6 +292,9 @@ nav {
     nav {
       width: 45%; } }
 
+.scroll-y {
+  overflow-y: hidden; }
+
 @media screen and (min-width: 740px) {
   .home-nav {
     background-color: #151515; } }

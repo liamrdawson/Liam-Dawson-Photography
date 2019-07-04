@@ -31,11 +31,11 @@
 
 - [ ] Plan out workflow for publishing posts.
 - [ ] Add content.
-
+- [ ] Remove blog for MVP.
 
 
 ### About / Contact
 
 - [x] Add 'Send Message' button.
 - [ ] Add form validation.
-- [ ] Add POST behaviour to contact form
+- [x] Add POST behaviour to contact form
