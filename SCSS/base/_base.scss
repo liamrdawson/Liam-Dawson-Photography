@@ -22,7 +22,7 @@ body {
     height: 100vh;
     width: 100vw;
     p {
-        color: $dark;
+        color: $dark-text;
         margin-bottom: $space9;
     }
 }
@@ -85,7 +85,7 @@ main {
 }
 
 section {
-    margin: $space5 0;
+    margin: $space8 0 $space5 0;
 }
 
 section header {
@@ -110,6 +110,7 @@ p a {
 //      FORM
 
 form {
+    margin: $space5 0;
     display: flex;
     flex-direction: column;
     input, textarea {

@@ -19,7 +19,7 @@ body {
   height: 100vh;
   width: 100vw; }
   body p {
-    color: #151515;
+    color: rgba(21, 21, 21, 0.9);
     margin-bottom: 0.75rem; }
 
 .index-body {
@@ -27,7 +27,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   color: #151515;
-  margin: 2.75rem 0 1rem;
+  margin: 1rem 0 1rem;
   font-family: 'Lora', serif;
   font-weight: 700;
   line-height: 1.15; }
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 1.563rem;
-  margin: 2.75rem 0 1rem;
+  margin: 1rem 0 1rem;
   font-family: 'Lora', serif;
   font-weight: 700;
   line-height: 1.15; }
@@ -75,7 +75,7 @@ main {
       width: 40%; } }
 
 section {
-  margin: 2.369rem 0; }
+  margin: 1rem 0 2.369rem 0; }
 
 section header {
   padding: 0;
@@ -92,6 +92,7 @@ p a {
     color: #151515; }
 
 form {
+  margin: 2.369rem 0;
   display: flex;
   flex-direction: column; }
   form input, form textarea {
@@ -145,23 +146,6 @@ button {
     background-color: #151515;
     color: #fefefb; }
 
-.image-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1; }
-
-.sample-prints-container {
-  display: flex;
-  flex-direction: row;
-  height: 30vh;
-  margin: 0;
-  overflow: scroll; }
-  .sample-prints-container img {
-    width: 30%; }
-
 .hero1, .hero2, .hero3,
 .hero4, .hero5, .hero6 {
   position: absolute;
@@ -172,18 +156,21 @@ button {
   transition: opacity 3s;
   z-index: -10; }
 
+.hero1 {
+  object-position: bottom right; }
+
 @media screen and (min-width: 490px) {
   .hero2 {
     left: 0; } }
 
 .hero4 {
-  object-position: top left; }
+  object-position: top right; }
 
 .hero5 {
-  object-position: bottom; }
+  object-position: top left; }
 
 .hero3, .hero6 {
-  object-position: bottom right; }
+  object-position: bottom; }
 
 @media screen and (min-width: 490px) {
   .narrow {
@@ -412,6 +399,23 @@ li {
 .success-container {
   margin: auto;
   text-align: center; }
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+
+.sample-prints-container {
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  margin: 0;
+  overflow: scroll; }
+  .sample-prints-container img {
+    width: 30%; }
 
 footer {
   grid-area: footer;

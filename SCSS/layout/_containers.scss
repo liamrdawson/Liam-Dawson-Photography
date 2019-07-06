@@ -24,3 +24,20 @@
     margin: auto;
     text-align: center;
 }
+
+
+.image-container {
+    @include absolute-zero;
+    z-index: -1;
+}
+
+.sample-prints-container {
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    margin: 0;
+    overflow: scroll;
+    img {
+        width: 30%;
+    }
+}

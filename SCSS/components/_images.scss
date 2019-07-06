@@ -1,19 +1,4 @@
 
-.image-container {
-    @include absolute-zero;
-    z-index: -1;
-}
-
-.sample-prints-container {
-    display: flex;
-    flex-direction: row;
-    height: 30vh;
-    margin: 0;
-    overflow: scroll;
-    img {
-        width: 30%;
-    }
-}
 
 .hero1, .hero2, .hero3,
 .hero4, .hero5, .hero6 {
@@ -26,6 +11,10 @@
     z-index: -10;
 }
 
+.hero1 {
+    object-position: bottom right;
+}
+
 .hero2 {
     @include mq('sm') {
         left: 0;
@@ -33,13 +22,13 @@
 }
 
 .hero4 {
-    object-position: top left;
+    object-position: top right;
 }
 .hero5 {
-    object-position: bottom;
+    object-position: top left;
 }
 .hero3, .hero6 {
-    object-position: bottom right;
+    object-position: bottom;
 }
 
 .narrow {
