@@ -5,12 +5,12 @@
 }
 
 html, body {
-    font-size: 14px;
+    font-size: 16px;
     @include mq('med') {
         font-size: 16px;
     }
     @include mq('x-lg') {
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 

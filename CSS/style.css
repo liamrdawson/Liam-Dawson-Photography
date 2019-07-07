@@ -4,13 +4,13 @@
   margin: 0; }
 
 html, body {
-  font-size: 14px; }
+  font-size: 16px; }
   @media screen and (min-width: 640px) {
     html, body {
       font-size: 16px; } }
   @media screen and (min-width: 1200px) {
     html, body {
-      font-size: 16px; } }
+      font-size: 17px; } }
 
 body {
   overflow-x: hidden;
