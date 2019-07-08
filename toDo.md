@@ -3,7 +3,8 @@
 - [x] Fix overflow issue on all pages.
 - [x] Fix nav height on landscape mobile.
 - [x] Fix nav height on landscape mobile Firefox.
-
+- [ ] Work on easing of nav menu.
+- [ ] Reasses font sizes for different device dimensions.
 
 ### Home
 
@@ -18,20 +19,21 @@
 - [x] Swap arrows out for Previous, Next, ~~Close~~.
 - [ ] Use MasonryJS to arrange gallery.
 - [x] ~~Change the way images are sourced, use an API to pull from an image hosting platform.~~
+- [ ] Increase surface area of prev / close / next.
 
 ### Prints
 
 - [x] Add content.
 - [ ] Restructure contents.
-- [x] ~~Add contact form.~~
+- [ ] ~~Add contact form.~~
 - [x] Redirect Make an Equiry button to contact form on About/Contact page.
 
 
 ### Blog
 
-- [ ] Plan out workflow for publishing posts.
-- [ ] Add content.
-- [ ] Remove blog for MVP.
+- [ ] ~~Plan out workflow for publishing posts.~~
+- [ ] ~~Add content.~~
+- [x] Remove blog for MVP.
 
 
 ### About / Contact
@@ -40,3 +42,4 @@
 - [ ] Add form validation.
 - [x] Add honeypot field.
 - [x] Add POST behaviour to contact form.
+- [ ] Increase inpus size on contact form.
