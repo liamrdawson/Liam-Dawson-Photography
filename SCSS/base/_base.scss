@@ -5,13 +5,7 @@
 }
 
 html, body {
-    font-size: 16px;
-    @include mq('med') {
-        font-size: 16px;
-    }
-    @include mq('x-lg') {
-        font-size: 17px;
-    }
+    font-size: $space8;
 }
 
 
@@ -41,7 +35,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: $h4;
+    font-size: $h5;
     @include headline;
     // @include mq('large') {
     //     font-size: $h2;
@@ -67,7 +61,7 @@ h5 {
 
 main {
     grid-area: main;
-    padding: $space8;
+    padding: $space10;
     width: 100%;
     margin: 0 auto;
     @include mq('sm') {

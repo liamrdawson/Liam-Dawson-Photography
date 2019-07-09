@@ -4,13 +4,7 @@
   margin: 0; }
 
 html, body {
-  font-size: 16px; }
-  @media screen and (min-width: 640px) {
-    html, body {
-      font-size: 16px; } }
-  @media screen and (min-width: 1200px) {
-    html, body {
-      font-size: 17px; } }
+  font-size: 1.0625rem; }
 
 body {
   overflow-x: hidden;
@@ -36,7 +30,7 @@ h1, h2, h3, h4, h5 {
   font-size: 4.209rem; }
 
 h1 {
-  font-size: 1.563rem;
+  font-size: 1.25rem;
   margin: 1rem 0 1rem;
   font-family: 'Lora', serif;
   font-weight: 700;
@@ -58,7 +52,7 @@ h5 {
 
 main {
   grid-area: main;
-  padding: 1rem;
+  padding: 0.625rem;
   width: 100%;
   margin: 0 auto; }
   @media screen and (min-width: 490px) {
@@ -75,7 +69,7 @@ main {
       width: 40%; } }
 
 section {
-  margin: 1rem 0 2.369rem 0; }
+  margin: 1.0625rem 0 2.369rem 0; }
 
 section header {
   padding: 0;
@@ -97,12 +91,12 @@ form {
   flex-direction: column; }
   form input, form textarea {
     background-color: rgba(21, 21, 21, 0.05);
-    font-size: 1rem;
-    padding: 0.563rem;
+    font-size: 1.0625rem;
+    padding: 0.625rem;
     font-family: "Lora", serif;
     width: auto;
     height: 2.369rem;
-    margin-top: 0.563rem;
+    margin-top: 0.625rem;
     border: none;
     border-radius: 2px; }
   form textarea {
@@ -133,7 +127,7 @@ button {
   border-radius: 2px;
   background-color: #b51500;
   color: #fefefb;
-  margin-top: 0.563rem;
+  margin-top: 0.625rem;
   width: 50%;
   font-family: "Lora", serif;
   text-transform: uppercase;
@@ -332,7 +326,7 @@ li {
     width: 30px;
     height: 3px;
     margin: 7px 0;
-    border-radius: 3px;
+    border-radius: 2px;
     transition: all .5s ease;
     background-color: #151515; }
 
@@ -356,13 +350,13 @@ li {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-9px, 8px); }
+  transform: rotate(-45deg) translate(-10px, 8px); }
 
 .toggle .line2 {
   opacity: 0; }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-6px, -5px); }
+  transform: rotate(45deg) translate(-5px, -3px); }
 
 .controls {
   color: #151515; }
@@ -372,7 +366,7 @@ li {
   cursor: pointer;
   opacity: 0.6;
   transition: all .3s ease-in;
-  margin: 0 1rem; }
+  margin: 0 1.0625rem; }
 
 .next:hover, .close:hover, .previous:hover {
   opacity: 1; }
@@ -435,7 +429,7 @@ footer {
   height: 100%;
   grid-template-columns: 1fr;
   grid-auto-rows: auto;
-  grid-row-gap: 1rem; }
+  grid-row-gap: 1.0625rem; }
   @media screen and (min-width: 640px) {
     .images {
       grid-template-columns: 1fr 1fr 1fr;

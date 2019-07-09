@@ -90,7 +90,7 @@ li {
         width: 30px;
         height: 3px;
         margin: 7px 0;
-        border-radius: 3px;
+        border-radius: 2px;
         transition: all .5s ease;
         background-color: $dark;
     }
@@ -127,7 +127,7 @@ li {
 }
 
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-9px, 8px);
+    transform: rotate(-45deg) translate(-10px, 8px);
 }
 
 .toggle .line2 {
@@ -135,7 +135,7 @@ li {
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-6px, -5px);
+    transform: rotate(45deg) translate(-5px, -3px);
 }
 
 
