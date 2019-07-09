@@ -4,7 +4,7 @@
 - [x] Fix nav height on landscape mobile.
 - [x] Fix nav height on landscape mobile Firefox.
 - [ ] Work on easing of nav menu.
-- [ ] Reasses font sizes for different device dimensions.
+- [x] Resize font.
 
 ### Home
 
