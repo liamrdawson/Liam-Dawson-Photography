@@ -19,3 +19,8 @@ button {
         color: $light;
     }
 }
+
+.previous, .next, .close {
+    padding: $space9;
+    margin-top: 10px;
+}

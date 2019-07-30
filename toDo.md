@@ -19,7 +19,7 @@
 - [x] Swap arrows out for Previous, Next, ~~Close~~.
 - [ ] Use MasonryJS to arrange gallery.
 - [x] ~~Change the way images are sourced, use an API to pull from an image hosting platform.~~
-- [ ] Increase surface area of prev / close / next.
+- [x] Increase surface area of prev / close / next.
 
 ### Prints
 
@@ -42,4 +42,4 @@
 - [ ] Add form validation.
 - [x] Add honeypot field.
 - [x] Add POST behaviour to contact form.
-- [ ] Increase inpus size on contact form.
+- [ ] Increase input size on contact form.

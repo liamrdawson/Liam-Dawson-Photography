@@ -140,6 +140,10 @@ button {
     background-color: #151515;
     color: #fefefb; }
 
+.previous, .next, .close {
+  padding: 0.75rem;
+  margin-top: 10px; }
+
 .hero1, .hero2, .hero3,
 .hero4, .hero5, .hero6 {
   position: absolute;
@@ -234,10 +238,10 @@ button {
   z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: space-between; }
   .lightbox img {
     max-width: 100%;
-    max-height: 93%;
+    max-height: 85%;
     object-fit: contain;
     object-position: center;
     margin: auto; }
