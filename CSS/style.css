@@ -328,7 +328,7 @@ li {
   .burger div {
     color: #fefefb;
     width: 30px;
-    height: 3px;
+    height: 2px;
     margin: 7px 0;
     border-radius: 2px;
     transition: all .5s ease;
@@ -354,13 +354,13 @@ li {
     opacity: 1;
     transform: translate3d(0, 0, 0); } }
 .toggle .line1 {
-  transform: rotate(-45deg) translate(-10px, 8px); }
+  transform: rotate(-45deg) translate(-6px, 7px); }
 
 .toggle .line2 {
   opacity: 0; }
 
 .toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -3px); }
+  transform: rotate(45deg) translate(-5px, -7px); }
 
 .controls {
   color: #151515; }
