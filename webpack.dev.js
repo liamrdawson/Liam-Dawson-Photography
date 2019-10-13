@@ -16,23 +16,23 @@ module.exports = merge(common, {
         }),
         new HtmlWebpackPlugin({
             filename: 'gallery.html',
-            template: "./gallery.html",
+            template: "./src/html/gallery.html",
         }),
         new HtmlWebpackPlugin({
             filename: 'contact.html',
-            template: "./contact.html",
+            template: "./src/html/contact.html",
         }),
         new HtmlWebpackPlugin({
             filename: 'about.html',
-            template: "./about.html",
+            template: "./src/html/about.html",
         }),
         new HtmlWebpackPlugin({
             filename: 'prints.html',
-            template: "./prints.html",
+            template: "./src/html/prints.html",
         }),
         new HtmlWebpackPlugin({
             filename: 'success.html',
-            template: "./success.html",
+            template: "./src/html/success.html",
         })
     ],
     module: {
