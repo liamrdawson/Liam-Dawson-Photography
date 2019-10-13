@@ -1,5 +1,5 @@
 const path = require("path");
-const common = require("./webpack.config");
+const common = require("./webpack.config.js");
 const merge = require("webpack-merge");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
@@ -29,7 +29,7 @@ module.exports = merge(common, {
             }),
             new HtmlWebpackPlugin({
                 filename: 'gallery.html',
-                template: "./gallery.html",
+                template: "./src/html/gallery.html",
                 minify: {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
@@ -38,7 +38,7 @@ module.exports = merge(common, {
             }),
             new HtmlWebpackPlugin({
                 filename: 'contact.html',
-                template: "./contact.html",
+                template: "./src/html/contact.html",
                 minify: {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
@@ -47,7 +47,7 @@ module.exports = merge(common, {
             }),
             new HtmlWebpackPlugin({
                 filename: 'about.html',
-                template: "./about.html",
+                template: "./src/html/about.html",
                 minify: {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
@@ -56,7 +56,7 @@ module.exports = merge(common, {
             }),
             new HtmlWebpackPlugin({
                 filename: 'prints.html',
-                template: "./prints.html",
+                template: "./src/html/prints.html",
                 minify: {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
@@ -65,7 +65,7 @@ module.exports = merge(common, {
             }),
             new HtmlWebpackPlugin({
                 filename: 'success.html',
-                template: "./success.html",
+                template: "./src/html/success.html",
                 minify: {
                     removeAttributeQuotes: true,
                     collapseWhitespace: true,
