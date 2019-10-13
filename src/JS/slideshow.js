@@ -20,20 +20,28 @@ const wideImages = [
     hero4,
 ]
 
-let current = 0;
-setInterval(function() {
+
+const mobileSlide = () => {
+    let current = 0;
     for (var i = 0; i < images.length; i++) {
         images[i].style.opacity = 0;
     }
     current = (current != images.length - 1) ? current + 1 : 0;
     images[current].style.opacity = 1;
-}, 10000);
+}
 
-let wideCurrent = 0;
-setInterval(function() {
+const wideSlide = () => {
+    let wideCurrent = 0;
     for (var i = 0; i < wideImages.length; i++) {
         wideImages[i].style.opacity = 0;
     }
     wideCurrent = (wideCurrent != wideImages.length - 1) ? wideCurrent + 1 : 0;
     wideImages[wideCurrent].style.opacity = 1;
-}, 10000);
+}
+
+export const slides = () => {
+    if (hero1) {
+        mobileSlide();
+        wideSlide();
+    }
+}

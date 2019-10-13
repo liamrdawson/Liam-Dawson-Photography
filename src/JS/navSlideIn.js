@@ -1,7 +1,7 @@
 
 //  ANIMATE NAV SLIDER ANIMATIONS ON BURGER MENU CLICK
 
-const navSlide = () => {
+export const navSlideIn = () => {
     const burger = document.querySelector(`.burger`);
     const nav = document.querySelector(`nav`);
     const navLinks = document.querySelectorAll(`nav ul li`);
@@ -23,5 +23,3 @@ const navSlide = () => {
          burger.classList.toggle(`toggle`);
     });
 }
-
-navSlide();
