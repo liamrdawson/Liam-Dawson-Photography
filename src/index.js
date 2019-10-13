@@ -1,7 +1,7 @@
 import {slides} from './JS/slideshow';
 import {navSlideIn} from './JS/navSlideIn';
 import {eventListeners} from './JS/gal';
-import '../CSS/style.css';
+import './SCSS/style.scss';
 
 alert("HELLO FROM WEBPACK!");
 
