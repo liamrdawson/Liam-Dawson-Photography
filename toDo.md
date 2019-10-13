@@ -5,6 +5,7 @@
 - [x] Fix nav height on landscape mobile Firefox.
 - [ ] Work on easing of nav menu.
 - [x] Resize font.
+- [ ] Add and configure Webpack
 
 ### Home
 

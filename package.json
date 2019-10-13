@@ -1,0 +1,24 @@
+{
+  "name": "liam-dawson-photography-site",
+  "version": "1.0.0",
+  "description": "Photography portfolio website",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamrdawson/Liam-Dawson-Photography.git"
+  },
+  "author": "Liam Dawson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liamrdawson/Liam-Dawson-Photography/issues"
+  },
+  "homepage": "https://github.com/liamrdawson/Liam-Dawson-Photography#readme",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
