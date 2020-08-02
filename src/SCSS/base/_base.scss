@@ -4,10 +4,14 @@
     margin: 0;
 }
 
+.holder {
+    margin: 10rem auto;
+    text-align: center;
+}
+
 html, body {
     font-size: $space8;
 }
-
 
 body {
     overflow-x: hidden;
